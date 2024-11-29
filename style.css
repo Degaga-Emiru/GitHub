@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for content */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Image styling */
+.food-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Food list styling */
+.food-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.food-list li {
+    background-color: #ffeb3b;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
